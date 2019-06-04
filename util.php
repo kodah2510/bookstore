@@ -20,3 +20,4 @@ function mysql_entities_fix_string($conn, $string)
     $htm = mysql_fix_string($conn, $string);
     return $htm;
 }
+
