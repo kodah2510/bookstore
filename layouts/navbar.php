@@ -19,7 +19,7 @@
                             <a href="#" class="nav-link">Contact</a> 
                         </li>
                     </ul>
-                    <form action="" class="form-inline my-2 my-lg-0" style="margin-right: 50px;">
+                    <form action="" class="form-inline my-2 my-lg-0">
                         <input type="search" class="form-control mr-sm-2" placeholder="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -43,7 +43,7 @@ _END;
                             else 
                             {
                                 echo '<button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">Login</button>';
-                                echo '<div class="dropdown-menu p-2" style="width: 20rem;">';
+                                echo '<div class="dropdown-menu p-2" style="width: 16rem;">';
                                 include 'login.php';
                                 echo '</div>';
                             }
